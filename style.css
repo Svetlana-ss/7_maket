@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('fonts/subset-MyriadPro-Regular.eot');
+    src: url('fonts/subset-MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-MyriadPro-Regular.woff2') format('woff2'),
+        url('fonts/subset-MyriadPro-Regular.woff') format('woff'),
+        url('fonts/subset-MyriadPro-Regular.ttf') format('truetype'),
+        url('fonts/subset-MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0%;
+}
+* {
+    box-sizing: border-box;
+}
+.container { 
+    max-width: 1254px; 
+    margin: 0px auto;
+}
+/*header-1. Float-left*/
+.head-left-h1 {
+    color: #000000;
+    font-size: 42px;
+    letter-spacing: 0.42px;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 59px;
+}
+.head1-left-logo {
+    background-color:  #5094f2;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;  
+    margin: 0 auto;
+    background-image: url(images/kavu4ki.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+}
+.head1-left {
+    float: left;
+    margin-left: 141px;
+    margin-top: 24px;
+}
+/*header-1. Float-right*/
+.head-right-property {
+    color: #6c6c6c;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    padding-right: 33px;
+} 
+.pad {
+    padding-right: 0px;
+}
+.head-right-nav {
+    display: inline-block;
+    vertical-align: top;
+}
+.head-right {
+    float: right;
+    margin: 37px 162px 33px 0px;
+}
+.img-layer {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 33px 358px 0px 805px;
+}
+/*header-2. Float-left*/
+.img-phone1 {
+    margin-left: 177px;
+    margin-top: 38px;
+    margin-bottom: 16px;
+    display: inline-block;
+    text-align: top;
+}
+.head2 {
+    background-image: url('images/fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head2-float {
+    float: left;
+}
+/*header-2. Float-right*/
+.text-description {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 44px;
+}
+.button {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #5094f2;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 44px;
+    border: none;
+    margin-top: 36px;
+    margin-left: 12px;
+}
+.h {
+    font-size: 42px;
+}
+.text {
+    float: right;
+    margin-top: 153px;
+    margin-right: 232px;
+    margin-bottom: 134px;
+}
+/*main. Cards*/
+.cards {
+    margin: 0 auto;
+}
+.card-h {
+    color: #5094f2;
+    font-size: 20px;
+    line-height: 44px;
+    font-weight: 400;
+}
+.card-p {
+    color: #909090;
+    font-size: 14px;
+}
+.description {
+    margin-top: 28px;
+    text-align: center;
+    width: 250px;
+}
+.card-icon {
+    background-color: #5094f2;
+    border-radius: 50%;
+    width: 186px;
+    height: 186px;
+    margin: 0 auto;
+    background-image: url(images/Shape_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card {
+    width: 248px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 57px 134px 0px 143px;
+}
+.icon2 {
+    background-color: #d94748;
+    background-image: url(images/Shape_6.png);
+}
+.icon3 {
+    background-color: #ebbb11;
+    background-image: url(images/Shape_5.png);
+}
+.card2 {
+    margin-right: 93px;
+    margin-left: 0px;
+}
+.card3 {
+    margin-right: 136px;
+    margin-left: 0px;
+}
+/*Main. Float-left*/
+.left-title {
+    color: #6f7173;
+    font-size: 42px;
+    line-height: 44.42px;
+    font-weight: 400;
+    margin-left: 168px;
+    margin-top: 94px;
+}
+.div-left-img {
+    display: inline-block;
+    vertical-align: top;
+    margin: 35px 82px 50px 159px;
+}
+.div-left-float {
+    float: left;
+    width: 42%;
+}
+/*Main. Float-right*/
+.right-title {
+    color: #6f7173;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 44.42px;
+}
+.right-text {
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+.div-right {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.div-right-float {
+    float: right;
+    margin-top: 16px;
+    margin-right: 187px;
+    margin-bottom: 63px;
+    width: 42%;
+}
+/*footer*/
+.footer-text {
+    color: #909090;
+    font-size: 15px;
+    line-height: 36px;
+}
+.footer {
+    border-top: 1px solid #e5e5e5;
+}
+.footer-position {
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 45px;
+}
+.clearfix {
+    clear: both;
+}
