@@ -177,11 +177,11 @@ body {
 .div-left-img {
     display: inline-block;
     vertical-align: top;
-    margin: 35px 82px 50px 159px;
+    padding: 35px 82px 50px 159px;
 }
 .div-left-float {
     float: left;
-    width: 42%;
+    width: 50%;
 }
 /*Main. Float-right*/
 .right-title {
@@ -202,10 +202,10 @@ body {
 }
 .div-right-float {
     float: right;
-    margin-top: 16px;
-    margin-right: 187px;
-    margin-bottom: 63px;
-    width: 42%;
+    padding-top: 16px;
+    padding-right: 187px;
+    padding-bottom: 63px;
+    width: 50%;
 }
 /*footer*/
 .footer-text {
